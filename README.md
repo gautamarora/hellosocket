@@ -1,20 +1,18 @@
 # Hello Socket
-===========
 
 Hello Socket is an experimentation playground for realtime communication and collaboration projects.
 
 ## Roadmap
 
-===========
 v1 - WebSocket server in Java
 
 v2 - WebRTC server in Java
 
 ## WebSocket Server
-===========
+
 This is an implementation of the WebSocket protocol using Java Sockets. It supports multiple clients to connect using threads.
 
-### Install
+### Get the code
 * Checkout source: `git clone git@github.com:gautamarora/hellosocket.git`
 * Import the project in eclipse or simply `cd hellosocket/` and open in your editor of choice
 
