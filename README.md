@@ -17,9 +17,10 @@ This is an implementation of the WebSocket protocol using Java Sockets. It suppo
 * Import the project in eclipse or simply `cd hellosocket/` and open in your editor of choice
 
 ### Running the websocket server
-* If using eclipse, go to WebSocketServer and 'Run as…' Java Application
+* If using eclipse, go to WebSocketServer.java and 'Run as…' Java Application
 * If using command line, `cd hellosocket/bin/` and run with `java websocket/WebSocketServer`
 * WebSocket Server will start on port 7000, by default
+* optional: to run on custom port, pass additional command line argument: `java websocket/WebSocketServer 8000`
 
 
 ### Running websocket clients

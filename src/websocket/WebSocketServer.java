@@ -8,17 +8,15 @@ import java.io.*;
  */
 public class WebSocketServer {
     public static void main(String[] args) throws IOException {
-        int portNumber = 7000;
-        //    if (args.length == 1) {
-        //        System.err.println("Usage: java WebSocketServer <port number>");
-        //        System.exit(1);
-        //    }
+        int portNumber = 7000; //default port
+        
         if(args.length == 1) {
             portNumber = Integer.parseInt(args[0]);
         }
         boolean listening = true;
 
-        try (ServerSocket serverSocket = new ServerSocket(portNumber)) { 
+        try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
+            System.out.println("WebSocket server listening on port " + portNumber);
             while (listening) {
                 new WebSocketServerThread(serverSocket.accept()).start();
             }
