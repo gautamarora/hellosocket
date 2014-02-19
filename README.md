@@ -4,9 +4,9 @@ Hello Socket is an experimentation playground for realtime communication and col
 
 ## Roadmap
 
-v1 - WebSocket server in Java
+v1 - WebSocket Server in Java (implementation of WebSocket Protocol - RFC 6455)
 
-v2 - WebRTC server in Java
+v2 - WebSocket Client Library in JavaScript (wrapper for the W3C WebSocket API)
 
 ## WebSocket Server
 
